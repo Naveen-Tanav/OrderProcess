@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿
+using OrderProcessManagement.Controllers;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -17,8 +18,19 @@ namespace OrderProcessManagement.Tests
 
         }
 
-        public class OrderController : ControllerBase
+        [Fact]
+        public void IsOrderControllerCreateMethodExist()
         {
+            OrderController controller = new OrderController();
+
+            var actionResult = controller.Create();
+
+            
+            Assert.IsType<OrderController>(controller);
+            Assert.IsType<Microsoft.AspNetCore.Mvc.OkResult>(actionResult);
+
         }
+
+       
     }
 }
