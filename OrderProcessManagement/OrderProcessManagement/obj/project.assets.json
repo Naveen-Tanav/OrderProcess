@@ -4720,6 +4720,39 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "OrderProcessManagement.BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "OrderProcessManagement.DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OrderProcessManagement.BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OrderProcessManagement.BL.dll": {}
+        }
+      },
+      "OrderProcessManagement.BO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/OrderProcessManagement.BO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OrderProcessManagement.BO.dll": {}
+        }
+      },
+      "OrderProcessManagement.DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/OrderProcessManagement.DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OrderProcessManagement.DAL.dll": {}
+        }
       }
     }
   },
@@ -12958,6 +12991,21 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "OrderProcessManagement.BL/1.0.0": {
+      "type": "project",
+      "path": "../OrderProcessManagement.BL/OrderProcessManagement.BL.csproj",
+      "msbuildProject": "../OrderProcessManagement.BL/OrderProcessManagement.BL.csproj"
+    },
+    "OrderProcessManagement.BO/1.0.0": {
+      "type": "project",
+      "path": "../OrderProcessManagement.BO/OrderProcessManagement.BO.csproj",
+      "msbuildProject": "../OrderProcessManagement.BO/OrderProcessManagement.BO.csproj"
+    },
+    "OrderProcessManagement.DAL/1.0.0": {
+      "type": "project",
+      "path": "../OrderProcessManagement.DAL/OrderProcessManagement.DAL.csproj",
+      "msbuildProject": "../OrderProcessManagement.DAL/OrderProcessManagement.DAL.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -12965,7 +13013,9 @@
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.2.3"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.2.3",
+      "OrderProcessManagement.BL >= 1.0.0",
+      "OrderProcessManagement.BO >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -12997,7 +13047,14 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\OrderProcess\\OrderProcessManagement\\OrderProcessManagement.BL\\OrderProcessManagement.BL.csproj": {
+              "projectPath": "C:\\OrderProcess\\OrderProcessManagement\\OrderProcessManagement.BL\\OrderProcessManagement.BL.csproj"
+            },
+            "C:\\OrderProcess\\OrderProcessManagement\\OrderProcessManagement.BO\\OrderProcessManagement.BO.csproj": {
+              "projectPath": "C:\\OrderProcess\\OrderProcessManagement\\OrderProcessManagement.BO\\OrderProcessManagement.BO.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

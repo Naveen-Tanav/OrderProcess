@@ -2099,10 +2099,30 @@
       },
       "OrderProcessManagement/1.0.0": {
         "dependencies": {
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.2.3"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.2.3",
+          "OrderProcessManagement.BL": "1.0.0",
+          "OrderProcessManagement.BO": "1.0.0"
         },
         "runtime": {
           "OrderProcessManagement.dll": {}
+        }
+      },
+      "OrderProcessManagement.BL/1.0.0": {
+        "dependencies": {
+          "OrderProcessManagement.DAL": "1.0.0"
+        },
+        "runtime": {
+          "OrderProcessManagement.BL.dll": {}
+        }
+      },
+      "OrderProcessManagement.BO/1.0.0": {
+        "runtime": {
+          "OrderProcessManagement.BO.dll": {}
+        }
+      },
+      "OrderProcessManagement.DAL/1.0.0": {
+        "runtime": {
+          "OrderProcessManagement.DAL.dll": {}
         }
       }
     }
@@ -3248,6 +3268,21 @@
       "hashPath": "xunit.runner.visualstudio.2.4.0.nupkg.sha512"
     },
     "OrderProcessManagement/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OrderProcessManagement.BL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OrderProcessManagement.BO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OrderProcessManagement.DAL/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

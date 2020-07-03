@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v2.2": {
       "OrderProcessManagement.BL/1.0.0": {
+        "dependencies": {
+          "OrderProcessManagement.DAL": "1.0.0"
+        },
         "runtime": {
           "OrderProcessManagement.BL.dll": {}
+        }
+      },
+      "OrderProcessManagement.DAL/1.0.0": {
+        "runtime": {
+          "OrderProcessManagement.DAL.dll": {}
         }
       }
     }
   },
   "libraries": {
     "OrderProcessManagement.BL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OrderProcessManagement.DAL/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

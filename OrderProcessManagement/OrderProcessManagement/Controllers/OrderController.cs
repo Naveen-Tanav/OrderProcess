@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using OrderProcessManagement.BO;
 
 namespace OrderProcessManagement.Controllers
 {
@@ -11,8 +12,8 @@ namespace OrderProcessManagement.Controllers
     [ApiController]
     public class OrderController : ControllerBase
     {
-        [HttpGet]
-        public object Create()
+        [HttpPost]
+        public IActionResult Create(Order order)
         {
             return Ok();
         }

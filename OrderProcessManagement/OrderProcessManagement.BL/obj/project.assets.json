@@ -207,6 +207,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "OrderProcessManagement.DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/OrderProcessManagement.DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OrderProcessManagement.DAL.dll": {}
+        }
       }
     }
   },
@@ -678,11 +688,17 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "OrderProcessManagement.DAL/1.0.0": {
+      "type": "project",
+      "path": "../OrderProcessManagement.DAL/OrderProcessManagement.DAL.csproj",
+      "msbuildProject": "../OrderProcessManagement.DAL/OrderProcessManagement.DAL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
-      "Microsoft.NETCore.App >= 2.2.0"
+      "Microsoft.NETCore.App >= 2.2.0",
+      "OrderProcessManagement.DAL >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -714,7 +730,11 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\OrderProcess\\OrderProcessManagement\\OrderProcessManagement.DAL\\OrderProcessManagement.DAL.csproj": {
+              "projectPath": "C:\\OrderProcess\\OrderProcessManagement\\OrderProcessManagement.DAL\\OrderProcessManagement.DAL.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

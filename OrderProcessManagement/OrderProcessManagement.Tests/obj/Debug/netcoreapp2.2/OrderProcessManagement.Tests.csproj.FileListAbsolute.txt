@@ -15,3 +15,9 @@ C:\OrderProcess\OrderProcessManagement\OrderProcessManagement.Tests\obj\Debug\ne
 C:\OrderProcess\OrderProcessManagement\OrderProcessManagement.Tests\obj\Debug\netcoreapp2.2\OrderProcessManagement.Tests.csproj.CopyComplete
 C:\OrderProcess\OrderProcessManagement\OrderProcessManagement.Tests\obj\Debug\netcoreapp2.2\OrderProcessManagement.Tests.dll
 C:\OrderProcess\OrderProcessManagement\OrderProcessManagement.Tests\obj\Debug\netcoreapp2.2\OrderProcessManagement.Tests.pdb
+C:\OrderProcess\OrderProcessManagement\OrderProcessManagement.Tests\bin\Debug\netcoreapp2.2\OrderProcessManagement.BL.dll
+C:\OrderProcess\OrderProcessManagement\OrderProcessManagement.Tests\bin\Debug\netcoreapp2.2\OrderProcessManagement.BO.dll
+C:\OrderProcess\OrderProcessManagement\OrderProcessManagement.Tests\bin\Debug\netcoreapp2.2\OrderProcessManagement.DAL.dll
+C:\OrderProcess\OrderProcessManagement\OrderProcessManagement.Tests\bin\Debug\netcoreapp2.2\OrderProcessManagement.BL.pdb
+C:\OrderProcess\OrderProcessManagement\OrderProcessManagement.Tests\bin\Debug\netcoreapp2.2\OrderProcessManagement.BO.pdb
+C:\OrderProcess\OrderProcessManagement\OrderProcessManagement.Tests\bin\Debug\netcoreapp2.2\OrderProcessManagement.DAL.pdb
