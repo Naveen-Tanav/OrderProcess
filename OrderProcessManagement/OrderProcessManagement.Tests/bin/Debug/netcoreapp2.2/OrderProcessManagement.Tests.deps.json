@@ -11,7 +11,8 @@
           "Microsoft.NET.Test.Sdk": "15.9.0",
           "OrderProcessManagement": "1.0.0",
           "xunit": "2.4.0",
-          "xunit.runner.visualstudio": "2.4.0"
+          "xunit.runner.visualstudio": "2.4.0",
+          "Microsoft.AspNetCore.Mvc.Core": "2.2.0.0"
         },
         "runtime": {
           "OrderProcessManagement.Tests.dll": {}
@@ -1058,6 +1059,14 @@
         "runtime": {
           "OrderProcessManagement.dll": {}
         }
+      },
+      "Microsoft.AspNetCore.Mvc.Core/2.2.0.0": {
+        "runtime": {
+          "Microsoft.AspNetCore.Mvc.Core.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.0"
+          }
+        }
       }
     }
   },
@@ -1601,6 +1610,11 @@
     },
     "OrderProcessManagement/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.Mvc.Core/2.2.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

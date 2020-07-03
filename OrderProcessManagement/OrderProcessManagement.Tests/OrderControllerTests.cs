@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using Xunit;
@@ -12,9 +13,12 @@ namespace OrderProcessManagement.Tests
         {
             OrderController controller = new OrderController();
 
+            Assert.IsType<OrderController>(controller);
 
         }
 
-        
+        public class OrderController : ControllerBase
+        {
+        }
     }
 }
