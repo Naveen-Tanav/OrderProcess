@@ -1,0 +1,9 @@
+C:\OrderProcess\OrderProcessManagement\OrderProcessManagement.BL\bin\Debug\netcoreapp2.2\OrderProcessManagement.BL.deps.json
+C:\OrderProcess\OrderProcessManagement\OrderProcessManagement.BL\bin\Debug\netcoreapp2.2\OrderProcessManagement.BL.dll
+C:\OrderProcess\OrderProcessManagement\OrderProcessManagement.BL\bin\Debug\netcoreapp2.2\OrderProcessManagement.BL.pdb
+C:\OrderProcess\OrderProcessManagement\OrderProcessManagement.BL\obj\Debug\netcoreapp2.2\OrderProcessManagement.BL.csprojAssemblyReference.cache
+C:\OrderProcess\OrderProcessManagement\OrderProcessManagement.BL\obj\Debug\netcoreapp2.2\OrderProcessManagement.BL.csproj.CoreCompileInputs.cache
+C:\OrderProcess\OrderProcessManagement\OrderProcessManagement.BL\obj\Debug\netcoreapp2.2\OrderProcessManagement.BL.AssemblyInfoInputs.cache
+C:\OrderProcess\OrderProcessManagement\OrderProcessManagement.BL\obj\Debug\netcoreapp2.2\OrderProcessManagement.BL.AssemblyInfo.cs
+C:\OrderProcess\OrderProcessManagement\OrderProcessManagement.BL\obj\Debug\netcoreapp2.2\OrderProcessManagement.BL.dll
+C:\OrderProcess\OrderProcessManagement\OrderProcessManagement.BL\obj\Debug\netcoreapp2.2\OrderProcessManagement.BL.pdb

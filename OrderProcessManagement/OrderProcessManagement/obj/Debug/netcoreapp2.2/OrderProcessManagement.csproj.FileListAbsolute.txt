@@ -1,0 +1,14 @@
+C:\OrderProcess\OrderProcessManagement\OrderProcessManagement\bin\Debug\netcoreapp2.2\OrderProcessManagement.deps.json
+C:\OrderProcess\OrderProcessManagement\OrderProcessManagement\bin\Debug\netcoreapp2.2\OrderProcessManagement.runtimeconfig.json
+C:\OrderProcess\OrderProcessManagement\OrderProcessManagement\bin\Debug\netcoreapp2.2\OrderProcessManagement.runtimeconfig.dev.json
+C:\OrderProcess\OrderProcessManagement\OrderProcessManagement\bin\Debug\netcoreapp2.2\OrderProcessManagement.dll
+C:\OrderProcess\OrderProcessManagement\OrderProcessManagement\bin\Debug\netcoreapp2.2\OrderProcessManagement.pdb
+C:\OrderProcess\OrderProcessManagement\OrderProcessManagement\obj\Debug\netcoreapp2.2\OrderProcessManagement.csprojAssemblyReference.cache
+C:\OrderProcess\OrderProcessManagement\OrderProcessManagement\obj\Debug\netcoreapp2.2\OrderProcessManagement.csproj.CoreCompileInputs.cache
+C:\OrderProcess\OrderProcessManagement\OrderProcessManagement\obj\Debug\netcoreapp2.2\OrderProcessManagement.RazorAssemblyInfo.cache
+C:\OrderProcess\OrderProcessManagement\OrderProcessManagement\obj\Debug\netcoreapp2.2\OrderProcessManagement.RazorAssemblyInfo.cs
+C:\OrderProcess\OrderProcessManagement\OrderProcessManagement\obj\Debug\netcoreapp2.2\OrderProcessManagement.AssemblyInfoInputs.cache
+C:\OrderProcess\OrderProcessManagement\OrderProcessManagement\obj\Debug\netcoreapp2.2\OrderProcessManagement.AssemblyInfo.cs
+C:\OrderProcess\OrderProcessManagement\OrderProcessManagement\obj\Debug\netcoreapp2.2\OrderProcessManagement.RazorTargetAssemblyInfo.cache
+C:\OrderProcess\OrderProcessManagement\OrderProcessManagement\obj\Debug\netcoreapp2.2\OrderProcessManagement.dll
+C:\OrderProcess\OrderProcessManagement\OrderProcessManagement\obj\Debug\netcoreapp2.2\OrderProcessManagement.pdb

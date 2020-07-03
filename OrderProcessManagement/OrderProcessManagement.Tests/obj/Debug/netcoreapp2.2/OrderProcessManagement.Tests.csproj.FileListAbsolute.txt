@@ -1,0 +1,17 @@
+C:\OrderProcess\OrderProcessManagement\OrderProcessManagement.Tests\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\OrderProcess\OrderProcessManagement\OrderProcessManagement.Tests\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+C:\OrderProcess\OrderProcessManagement\OrderProcessManagement.Tests\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+C:\OrderProcess\OrderProcessManagement\OrderProcessManagement.Tests\bin\Debug\netcoreapp2.2\OrderProcessManagement.Tests.deps.json
+C:\OrderProcess\OrderProcessManagement\OrderProcessManagement.Tests\bin\Debug\netcoreapp2.2\OrderProcessManagement.Tests.runtimeconfig.json
+C:\OrderProcess\OrderProcessManagement\OrderProcessManagement.Tests\bin\Debug\netcoreapp2.2\OrderProcessManagement.Tests.runtimeconfig.dev.json
+C:\OrderProcess\OrderProcessManagement\OrderProcessManagement.Tests\bin\Debug\netcoreapp2.2\OrderProcessManagement.Tests.dll
+C:\OrderProcess\OrderProcessManagement\OrderProcessManagement.Tests\bin\Debug\netcoreapp2.2\OrderProcessManagement.Tests.pdb
+C:\OrderProcess\OrderProcessManagement\OrderProcessManagement.Tests\bin\Debug\netcoreapp2.2\OrderProcessManagement.dll
+C:\OrderProcess\OrderProcessManagement\OrderProcessManagement.Tests\bin\Debug\netcoreapp2.2\OrderProcessManagement.pdb
+C:\OrderProcess\OrderProcessManagement\OrderProcessManagement.Tests\obj\Debug\netcoreapp2.2\OrderProcessManagement.Tests.csprojAssemblyReference.cache
+C:\OrderProcess\OrderProcessManagement\OrderProcessManagement.Tests\obj\Debug\netcoreapp2.2\OrderProcessManagement.Tests.csproj.CoreCompileInputs.cache
+C:\OrderProcess\OrderProcessManagement\OrderProcessManagement.Tests\obj\Debug\netcoreapp2.2\OrderProcessManagement.Tests.AssemblyInfoInputs.cache
+C:\OrderProcess\OrderProcessManagement\OrderProcessManagement.Tests\obj\Debug\netcoreapp2.2\OrderProcessManagement.Tests.AssemblyInfo.cs
+C:\OrderProcess\OrderProcessManagement\OrderProcessManagement.Tests\obj\Debug\netcoreapp2.2\OrderProcessManagement.Tests.csproj.CopyComplete
+C:\OrderProcess\OrderProcessManagement\OrderProcessManagement.Tests\obj\Debug\netcoreapp2.2\OrderProcessManagement.Tests.dll
+C:\OrderProcess\OrderProcessManagement\OrderProcessManagement.Tests\obj\Debug\netcoreapp2.2\OrderProcessManagement.Tests.pdb
