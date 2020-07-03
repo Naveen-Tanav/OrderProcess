@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\OrderProcessManagement.BO\OrderProcessManagement.BO.csproj" />
     <ProjectReference Include="..\OrderProcessManagement.DAL\OrderProcessManagement.DAL.csproj" />
   </ItemGroup>
 

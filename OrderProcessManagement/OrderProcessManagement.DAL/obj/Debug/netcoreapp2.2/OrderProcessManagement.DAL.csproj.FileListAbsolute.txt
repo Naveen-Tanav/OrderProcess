@@ -7,3 +7,6 @@ C:\OrderProcess\OrderProcessManagement\OrderProcessManagement.DAL\obj\Debug\netc
 C:\OrderProcess\OrderProcessManagement\OrderProcessManagement.DAL\obj\Debug\netcoreapp2.2\OrderProcessManagement.DAL.dll
 C:\OrderProcess\OrderProcessManagement\OrderProcessManagement.DAL\obj\Debug\netcoreapp2.2\OrderProcessManagement.DAL.pdb
 C:\OrderProcess\OrderProcessManagement\OrderProcessManagement.DAL\obj\Debug\netcoreapp2.2\OrderProcessManagement.DAL.csprojAssemblyReference.cache
+C:\OrderProcess\OrderProcessManagement\OrderProcessManagement.DAL\bin\Debug\netcoreapp2.2\OrderProcessManagement.BO.dll
+C:\OrderProcess\OrderProcessManagement\OrderProcessManagement.DAL\bin\Debug\netcoreapp2.2\OrderProcessManagement.BO.pdb
+C:\OrderProcess\OrderProcessManagement\OrderProcessManagement.DAL\obj\Debug\netcoreapp2.2\OrderProcessManagement.DAL.csproj.CopyComplete
