@@ -1,0 +1,40 @@
+{
+  "OrderDetails": [
+    {
+      "OrderId": "12926b77686b471a96c0c46ce5dade6e",
+      "OrderDate": "2020-07-12T00:00:00",
+      "Products": [
+        {
+          "Id": "P001",
+          "Name": "Book",
+          "Type": 1,
+          "Price": 100.0,
+          "Quantity": 100
+        }
+      ],
+      "Customer": {
+        "Id": "C001",
+        "Name": "Naveen",
+        "AddressLine1": "abc",
+        "AddressLine2": null,
+        "City": "Banga",
+        "State": "KA",
+        "Country": "IN",
+        "ZipCode": 560076,
+        "PhoneNumber": "+91-9741969579"
+      },
+      "Shipping": {
+        "Id": "C001",
+        "Name": "Naveen",
+        "AddressLine1": "abc",
+        "AddressLine2": null,
+        "City": "Banga",
+        "State": "KA",
+        "Country": "IN",
+        "ZipCode": 560076,
+        "PhoneNumber": "+91-9741969579"
+      },
+      "Product": null
+    }
+  ]
+}

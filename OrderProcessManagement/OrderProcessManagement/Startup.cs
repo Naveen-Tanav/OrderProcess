@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using OrderProcessManagement.BL;
 using OrderProcessManagement.BO;
 
 namespace OrderProcessManagement
@@ -27,6 +28,8 @@ namespace OrderProcessManagement
         public void ConfigureServices(IServiceCollection services)
         {
             services.Configure<SettingsModel>(Configuration.GetSection("Settings"));
+            services.AddSingleton<IManageOrder,ManageOrder>();
+            services.AddSingleton<IPaymentRuleProcessor, PaymentRuleProcessor>();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
