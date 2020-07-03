@@ -258,6 +258,52 @@ namespace OrderProcessManagement.Tests
 
         }
         [Fact]
+        public void PassPCustomerCountryAsNull_ExpectValidationFailure()
+        {
+            Order order = GetOrderRequest();
+            order.Customer.Country = null;
+            _manageOrder.Setup(a => a.CreateOrder(order, settingsModel.ConnectionString)).Returns(false);
+
+            var actionResult = controller.Create(order);
+            var returnStatus = (Microsoft.AspNetCore.Mvc.BadRequestResult)actionResult;
+            Assert.IsType<OrderController>(controller);
+            Assert.IsType<Microsoft.AspNetCore.Mvc.BadRequestResult>(actionResult);
+            Assert.NotNull(order);
+            Assert.Equal(400, returnStatus.StatusCode);
+
+        }
+        [Fact]
+        public void PassPCustomerZipCodeAszero_ExpectValidationFailure()
+        {
+            Order order = GetOrderRequest();
+            order.Customer.ZipCode = 0;
+            _manageOrder.Setup(a => a.CreateOrder(order, settingsModel.ConnectionString)).Returns(false);
+
+            var actionResult = controller.Create(order);
+            var returnStatus = (Microsoft.AspNetCore.Mvc.BadRequestResult)actionResult;
+            Assert.IsType<OrderController>(controller);
+            Assert.IsType<Microsoft.AspNetCore.Mvc.BadRequestResult>(actionResult);
+            Assert.NotNull(order);
+            Assert.Equal(400, returnStatus.StatusCode);
+
+        }
+        [Fact]
+        public void PassPCustomerPhoneAsNull_ExpectValidationFailure()
+        {
+            Order order = GetOrderRequest();
+            order.Customer.PhoneNumber = null;
+            _manageOrder.Setup(a => a.CreateOrder(order, settingsModel.ConnectionString)).Returns(false);
+
+            var actionResult = controller.Create(order);
+            var returnStatus = (Microsoft.AspNetCore.Mvc.BadRequestResult)actionResult;
+            Assert.IsType<OrderController>(controller);
+            Assert.IsType<Microsoft.AspNetCore.Mvc.BadRequestResult>(actionResult);
+            Assert.NotNull(order);
+            Assert.Equal(400, returnStatus.StatusCode);
+
+        }
+
+        [Fact]
         public void PassShippingAsNull_ExpectValidationFailure()
         {
             Order order = GetOrderRequest();
@@ -272,7 +318,111 @@ namespace OrderProcessManagement.Tests
             Assert.Equal(400, returnStatus.StatusCode);
 
         }
+        [Fact]
+        public void PassPShippingNameAsNull_ExpectValidationFailure()
+        {
+            Order order = GetOrderRequest();
+            order.Shipping.Name = null;
+            _manageOrder.Setup(a => a.CreateOrder(order, settingsModel.ConnectionString)).Returns(false);
 
+            var actionResult = controller.Create(order);
+            var returnStatus = (Microsoft.AspNetCore.Mvc.BadRequestResult)actionResult;
+            Assert.IsType<OrderController>(controller);
+            Assert.IsType<Microsoft.AspNetCore.Mvc.BadRequestResult>(actionResult);
+            Assert.NotNull(order);
+            Assert.Equal(400, returnStatus.StatusCode);
+
+        }
+        [Fact]
+        public void PassPShippingAddress1AsNull_ExpectValidationFailure()
+        {
+            Order order = GetOrderRequest();
+            order.Shipping.AddressLine1 = null;
+            _manageOrder.Setup(a => a.CreateOrder(order, settingsModel.ConnectionString)).Returns(false);
+
+            var actionResult = controller.Create(order);
+            var returnStatus = (Microsoft.AspNetCore.Mvc.BadRequestResult)actionResult;
+            Assert.IsType<OrderController>(controller);
+            Assert.IsType<Microsoft.AspNetCore.Mvc.BadRequestResult>(actionResult);
+            Assert.NotNull(order);
+            Assert.Equal(400, returnStatus.StatusCode);
+
+        }
+        [Fact]
+        public void PassPShippingCityAsNull_ExpectValidationFailure()
+        {
+            Order order = GetOrderRequest();
+            order.Shipping.City = null;
+            _manageOrder.Setup(a => a.CreateOrder(order, settingsModel.ConnectionString)).Returns(false);
+
+            var actionResult = controller.Create(order);
+            var returnStatus = (Microsoft.AspNetCore.Mvc.BadRequestResult)actionResult;
+            Assert.IsType<OrderController>(controller);
+            Assert.IsType<Microsoft.AspNetCore.Mvc.BadRequestResult>(actionResult);
+            Assert.NotNull(order);
+            Assert.Equal(400, returnStatus.StatusCode);
+
+        }
+        [Fact]
+        public void PassPShippingStateAsNull_ExpectValidationFailure()
+        {
+            Order order = GetOrderRequest();
+            order.Shipping.State = null;
+            _manageOrder.Setup(a => a.CreateOrder(order, settingsModel.ConnectionString)).Returns(false);
+
+            var actionResult = controller.Create(order);
+            var returnStatus = (Microsoft.AspNetCore.Mvc.BadRequestResult)actionResult;
+            Assert.IsType<OrderController>(controller);
+            Assert.IsType<Microsoft.AspNetCore.Mvc.BadRequestResult>(actionResult);
+            Assert.NotNull(order);
+            Assert.Equal(400, returnStatus.StatusCode);
+
+        }
+        [Fact]
+        public void PassPShippingCountryAsNull_ExpectValidationFailure()
+        {
+            Order order = GetOrderRequest();
+            order.Shipping.Country = null;
+            _manageOrder.Setup(a => a.CreateOrder(order, settingsModel.ConnectionString)).Returns(false);
+
+            var actionResult = controller.Create(order);
+            var returnStatus = (Microsoft.AspNetCore.Mvc.BadRequestResult)actionResult;
+            Assert.IsType<OrderController>(controller);
+            Assert.IsType<Microsoft.AspNetCore.Mvc.BadRequestResult>(actionResult);
+            Assert.NotNull(order);
+            Assert.Equal(400, returnStatus.StatusCode);
+
+        }
+        [Fact]
+        public void PassPShippingZipCodeAszero_ExpectValidationFailure()
+        {
+            Order order = GetOrderRequest();
+            order.Shipping.ZipCode = 0;
+            _manageOrder.Setup(a => a.CreateOrder(order, settingsModel.ConnectionString)).Returns(false);
+
+            var actionResult = controller.Create(order);
+            var returnStatus = (Microsoft.AspNetCore.Mvc.BadRequestResult)actionResult;
+            Assert.IsType<OrderController>(controller);
+            Assert.IsType<Microsoft.AspNetCore.Mvc.BadRequestResult>(actionResult);
+            Assert.NotNull(order);
+            Assert.Equal(400, returnStatus.StatusCode);
+
+        }
+        [Fact]
+        public void PassPShippingPhoneAsNull_ExpectValidationFailure()
+        {
+            Order order = GetOrderRequest();
+            order.Shipping.PhoneNumber = null;
+            _manageOrder.Setup(a => a.CreateOrder(order, settingsModel.ConnectionString)).Returns(false);
+
+            var actionResult = controller.Create(order);
+            var returnStatus = (Microsoft.AspNetCore.Mvc.BadRequestResult)actionResult;
+            Assert.IsType<OrderController>(controller);
+            Assert.IsType<Microsoft.AspNetCore.Mvc.BadRequestResult>(actionResult);
+            Assert.NotNull(order);
+            Assert.Equal(400, returnStatus.StatusCode);
+
+        }
         public Order GetOrderRequest()
         {
             Order order = new Order();
